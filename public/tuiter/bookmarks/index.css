@@ -1,0 +1,212 @@
+
+body
+{
+    color:white;
+    background-color: black;
+    font-family: "Arial";
+}
+.wd-flex-outer
+{
+    display:flex;
+    flex-direction: column;
+    margin: 0% 28.5%  0% 28.5%;
+    border-right: 2px solid rgb(47,51,54);
+    border-left: 2px solid rgb(47,51,54);
+
+}
+
+.wd-flex-outer .wd-flex-1 {
+    border: 1px solid rgb(47,51,54);
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display:flex;
+    flex-direction: row ;
+
+}
+
+.wd-flex-outer .wd-flex-2
+{
+    border: 1px solid rgb(47,51,54);
+    display:flex;
+    flex-direction: row;
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+.wd-flex-outer .wd-flex-2 .wd-flex-2-1
+{
+
+    display:flex;
+    align-items: stretch;
+}
+
+.wd-flex-outer .wd-flex-2 .wd-flex-2-2
+{
+    padding-left: 12px;
+    padding-top: 12px;
+}
+
+.wd-flex-outer .wd-flex-2 .wd-flex-2-2 .wd-flex-2-2-0
+{
+    display:flex;
+    flex-direction: row;
+}
+
+.wd-flex-outer .wd-flex-2 .wd-flex-2-2 .wd-flex-2-2-0 .wd-flex-2-2-1
+{
+    width:90%;
+}
+
+.wd-flex-outer .wd-flex-2 .wd-flex-2-2 .wd-flex-2-2-0 .wd-flex-2-2-a
+{
+    width:10%;
+}
+
+.wd-flex-outer .wd-flex-2 .wd-flex-2-2 .wd-flex-2-2-1 >p
+{
+    display:inline;
+    font-size: 15px;
+}
+
+.wd-flex-outer .wd-flex-2 .wd-flex-2-2 .wd-flex-2-2-1 .wd-p{
+    color:grey;
+}
+
+.wd-flex-outer .wd-flex-2 .wd-flex-2-2 .wd-flex-2-2-2 {
+   padding-right: 16px;
+    padding-bottom: 12px;
+}
+
+.wd-flex-outer .wd-flex-2 .wd-flex-2-2 .wd-flex-2-2-2 >p{
+    width:506px;
+    font-size:15px;
+    text-align:justify;
+}
+.wd-flex-outer .wd-flex-2 .wd-flex-2-2 .wd-flex-2-2-3
+{
+    border: 1px solid rgb(47,51,54);
+    width:504px;
+    height:264px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.wd-flex-outer .wd-flex-2 .wd-flex-2-2 .wd-flex-2-2-4
+{
+    border: 1px solid rgb(47,51,54);
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width:504px;
+}
+
+.wd-flex-outer .wd-flex-2 .wd-flex-2-2 .wd-flex-2-2-4 .wd-p1
+{
+    padding: 12px;
+    margin:auto;
+    font-size: 15px;
+
+}
+
+.wd-flex-outer .wd-flex-2 .wd-flex-2-2 .wd-flex-2-2-4 .wd-p2
+{
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin:auto;
+    font-size: 15px;
+    color:grey;
+}
+
+.wd-flex-outer .wd-flex-2 .wd-flex-2-2 .wd-flex-2-2-3 >img{
+    width:504px;
+    height:264px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.wd-flex-outer .wd-flex-2 .wd-flex-2-2 .wd-flex-2-2-5
+{
+    display:flex;
+    flex-direction: row;
+    width:504px;
+}
+.wd-flex-outer .wd-flex-2 .wd-flex-2-1 .wd-img
+{
+    width:48px;
+    height:48px;
+    border-radius:50%;
+}
+
+.wd-flex-outer .wd-flex-1 .wd-flex-1-1{
+width: 90%;
+
+}
+
+
+.wd-flex-outer .wd-flex-1-2{
+width:10%;
+
+}
+
+.wd-flex-outer .wd-flex-1 .wd-flex-1-1 .wd-h4{
+margin-top: -20px;
+    color:grey;
+}
+
+.wd-flex-outer .wd-flex-1 .wd-flex-1-2 .wd-ellipsis
+{
+    width:10%;
+
+}
+
+
+
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.wd-reactions .wd-number{
+    padding-left: 12px;
+}
+
+.wd-icons .wd-links{
+    color: lightgrey;
+}
+
+.wd-reactions .wd-icons{
+    color: lightgrey;
+}
+
+
+.wd-emojis .wd-reactions {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+
+
+.wd-flex-2-2 .wd-emojis {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.red{
+    color:red;
+}
+
+.wd-link-1{
+    color: grey;
+    padding: 0 12px 12px 12px;
+    margin: auto;
+
+}
