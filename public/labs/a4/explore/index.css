@@ -52,8 +52,16 @@ body {
     list-style-type: none;
     display: inline-block;
     font-size: 16px;
-    padding: 0px 16px 1px 16px;
 
+
+}
+.wd-set-size{
+    width:15px;
+    height:15px;
+}
+
+.wd-color-white{
+    background-color:white;
 }
 
 .wd-nav-tab-border{
