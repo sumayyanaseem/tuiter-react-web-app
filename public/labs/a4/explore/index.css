@@ -1,0 +1,112 @@
+body {
+    font-family: "Arial";
+    background-color: black;
+    color: white;
+}
+
+.wd-search-tuiter {
+    bottom: 7px;
+    left: 10px;
+}
+
+
+
+.nav-tabs li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+.wd-nav-tabs-div .wd-selected-blue {
+    border-bottom: solid 3px rgb(29, 161, 242);
+    color:white;
+
+}
+.wd-color{
+    background-color:black;
+    color:white;
+}
+
+.wd-bg-black-color{
+    background-color:black;
+}
+
+.wd-fg-color{
+    color:white;
+}
+
+.wd-grey-color{
+    background-color: rgb(33, 35, 39);
+}
+
+.wd-grey-border{
+    border: rgb(33, 35, 39);
+}
+
+
+.wd-grey-color-font{
+    color: rgb(110, 118, 125);
+}
+
+.wd-nav-tabs-div >ul >li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 0px 16px 1px 16px;
+
+}
+
+.wd-nav-tab-border{
+    border-bottom: solid 1px rgb(33, 35, 39);
+}
+
+.wd-black-bg-white-font{
+    background-color: black;
+    color:white;
+}
+
+.wd-border-grey{
+    border: 1px solid rgb(33, 35, 39);
+    border-top:0px;
+}
+
+.wd-border-grey-all{
+    border: 1px solid rgb(33, 35, 39);
+}
+.wd-font-grey{
+    color: grey;
+}
+
+.wd-font-blue{
+    color:rgb(29, 161, 242);
+}
+
+.wd-border-bottom{
+    border-bottom:1px solid rgb(33, 35, 39);
+
+}
+
+.wd-side-padding{
+    padding-left: 0px;
+}
+
+.wd-button-color{
+    background-color: white;
+    color:black;
+}
+
+.wd-bg-grey{
+    background-color: rgb(33, 35, 39);
+}
+
+.wd-font-size{
+    font-size:10px;
+}
+
+.wd-width{
+    width:1em;
+}
+
+.wd-fg-color{
+    color: white;
+}

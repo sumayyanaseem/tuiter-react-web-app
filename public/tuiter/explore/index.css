@@ -1,153 +1,33 @@
 body {
-    font-family: "Arial";
-    background-color: black;
-    color: white;
+    /*font-family: "Arial";*/
+    /*background-color: black;*/
+    /*color: white;*/
 }
 
-.wd-gear-color
-{
-
-    float:right;
-    margin-right: 16px;
+.wd-search-tuiter {
+    bottom: 7px;
+    left: 10px;
 }
 
-
+.wd-nav-tabs {
+    width: 100%;
+    color: rgb(29,161,242);
+    padding: 0px;
+}
 
 .wd-nav-tabs li {
     list-style-type: none;
     display: inline-block;
-    font-size: 16px;
-    padding: 10px 50px;
 }
 
-.wd-selected-blue {
+.wd-nav-tabs .wd-selected {
     border-bottom: solid 4px rgb(29,161,242);
 }
 
-.wd-selected-grey {
-     color:rgb(110, 118, 125);
+.wd-width{
+    width:1em;
 }
 
-.wd-search-bar{
-    width:80%;
-    height:30px;
-    border-radius: 18px;
-    background-color:darkgray;
-}
-.padding-fat {
-    padding: 50px;
-}
-
-.wd-float-div-left {float:left;width:45px;}
-.wd-float-div-right {float:right}
-
-.wd-div-inner-outline {
-    padding: 15px;
-    border: 1px solid rgb(47,51,54);
-
-}
-
-
-
-
-.wd-empty-div {
-    background-color: rgb(23, 24, 29);
-}
-
-.wd-heading-tag {
-color:rgb(110, 118, 125);
-    font-size: 13px;
-}
-
-.wd-ellipse
-{
-    float: right;
-    width:10px;
-    color: rgb(47,51,54);
-    margin-top:-90px;
-    padding-right: 32px;
-}
-
-.wd-nav-tabs {
-    display: flex;
-    align-items: stretch; /* Default */
-    justify-content: space-between;
-    color: rgb(29,161,242);
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.padding-container{
-    padding: 16px;
-}
-
-.wd-div-inner-outline .wd-padding-top{
-    padding-top: 10%;
-}
-
-.wd-img-float{
-    padding-right: 16px;
-    float:right;
-    margin-top:-95px;
-    border-radius: 25%;
-}
-
-.wd-para-inline{
-    display:inline;
-
-}
-
-.wd-search-icon{
-    padding-right: 15px;
-    padding-left:5px;
-    color:white;
-}
-
-.wd-parent{
-    position: relative;
-}
-
-.wd-child1{
-    position: absolute;
-    z-index: 1;
-}
-.wd-child2{
-    position: absolute;
-    z-index: 2;
-}
-
-.wd-flex-top-bar{
-    display:flex;
-    flex-direction:row;
-}
-
-
-.wd-settings .wd-settings-icon {
-                       margin-right: 12px;
-                        margin-top:-30px;
-                       float: right;
-                       color: rgb(29, 161, 242);
-                   }
-.wd-search-bar .wd-search-bar-1 {
-                       border: none;
-                       background-color: rgb(33, 35, 39);
-                       width: 100%;
-                       outline: none;
-                   }
-
-.wd-search-bar .wd-search-icon {
-    padding-right: 15px;
-    padding-left: 5px;
-    color: white;
-}
-
-.wd-part-1 .wd-search-bar {
-    border-radius: 20px;
-    width: 72%;
-    margin-left: 45px;
-    display: flex;
-    align-items: center;
-    background-color: rgb(33, 35, 39);
-    padding: 10px;
+.wd-selected-bluecol{
+    color:#0d6efd;
 }
