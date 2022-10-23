@@ -1,0 +1,25 @@
+[
+  {
+    "profileName": "Elon Musk",
+    "handleName": "@elonMusk",
+    "date": "2h",
+    "content": "Amazing show about mission!",
+    "profileImg": "../../images/elon.jpg",
+    "postImg": "../../images/space.jpg",
+    "postImgContentTitle": "SpaceX releases the FALCON 2023.More than three years after SpaceX’s Falcon Heavy rocket last blazed a path into orbit,engine launcher is finally set to fly again as soon as Oct Space Center in Florida ",
+    "postImgContent": "",
+    "postLink": "@inspiration4x"
+
+  },
+  {
+    "profileName": "New York Post",
+    "handleName": "@nyPost",
+    "date": "Yesterday",
+    "content": "Would Yankees have 28th World Series if they had signed one of these two superstars?",
+    "profileImg": "../../images/nypost.jpg",
+    "postImg": "../../images/newspaper1.jpg",
+    "postImgContentTitle": "",
+    "postImgContent": "",
+    "postLink": "https://www.google.co.in/"
+  }
+]
