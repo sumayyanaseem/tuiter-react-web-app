@@ -1,4 +1,5 @@
 import React from "react";
+import "./index.css"
 const HomeItem = (
     {
         post = { profileName: 'Elon Musk', handleName: '@elonMusk', date: '2h', content:'Amazing show about @inspiration4x mission!', profileImg: '../HomeScreen/elon.jpg', postImg: '../HomeScreen/space.jpg', postImgContentTitle:'SpaceX releases the FALCON 2023', postImgContent:'SpaceX release enjoy',
@@ -35,7 +36,7 @@ const HomeItem = (
                 </div>
                 <div id="image-info" class="wd-img-border">
                     <div class="wd-E__image">
-                        <img src={post.postImg} width="100%"/>
+                        <img src={post.postImg} width="100px"/>
                     </div>
                     <div class="wd-F__container">
                         <div class="wd-F__title">

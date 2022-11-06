@@ -1,20 +1,18 @@
+
+
 import React from "react";
-import postsArray from './homeposts.json';
-import HomeItem from "./home-item";
-import './index.css'
-const HomeComponent = () => {
+import TuitsList from "./../tuits/TuitsList";
+import WhatsHappening from "./whats-happening";
+
+
+const HomeScreen = () => {
     return(
-        <ul className="list-group">
-            {
-                postsArray.map(post =>
-                                   <HomeItem post={post}/> )
-            }
-        </ul>
+        <>
+            <h4>Home</h4>
+            <WhatsHappening/>
+            <TuitsList/>
+        </>
     );
 };
-
-export default HomeComponent;
-
-
-
+export default HomeScreen;
 
