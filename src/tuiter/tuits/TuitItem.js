@@ -19,7 +19,7 @@ const TuitItem = (
         dispatch(deleteTuitThunk(id));
     }
 
-
+    console.log(tuit.image);
     return(
 
 
